@@ -10,7 +10,7 @@ import random
 try:
     import tkinter
 except ImportError:  # python 2
-    import Tkinter as tkinter
+    import tkinter as tkinter
 
 
 def load_images(card_images):
@@ -120,6 +120,11 @@ def new_game():
 
 def shuffle():
     random.shuffle(deck)
+
+
+def test():
+    print("This is a test line")
+
 
 mainWindow = tkinter.Tk()
 
